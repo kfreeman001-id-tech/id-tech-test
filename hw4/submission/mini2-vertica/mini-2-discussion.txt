@@ -1,0 +1,13 @@
+(1) This query returns the number of stories whose user_id is 1.
+
+(2) This query returns both tag_id and count in descending order (based on count) of lobster stories whose hotness is greater than 0 aggregated by taggings' story_id being equal to stories' id.
+
+(3) This query returns stories' id, title, upvotes, and downvotes of stories whose created_at values are greater than '2017-01-23 00:00:00', hiddens' user_id is NOT 1, and hiddens' story id is equal to stories' id.
+
+(4) This query returns stories' id and title whose taggings' story_id are NOT 2,6, or 7 and whose hiddens' user_id are NOT 3, 4, or 5 and whose stories' hotness is greater than 0 and whose stories' created_at is greater than '2017-01-23 00:00:00'.
+
+Query (4) is well-suited for a column store because it computes aggregates across many individual tables. Queries (2) and (3) only compute across 2 indivual tables, but (3) returns many rows so it would also be well-suited for a column-store.
+
+Queries A and B return completely different results. After comparing upvotes, downvotes, and hotness between both queries, it seems that hotness is NOT correlated to number of upvotes and number of downvotes.
+
+It seems that query times are much more consistent with the fewer amount of attributes being pulled. 

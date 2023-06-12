@@ -1,0 +1,1 @@
+SELECT s.url FROM lobsters.stories as s ORDER BY s.hotness DESC LIMIT 10;

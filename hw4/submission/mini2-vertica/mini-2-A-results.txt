@@ -1,0 +1,15 @@
+          url
+-----------------------
+ http://www.nsbGoq.com
+ http://www.qPnZQG.com
+ http://www.NBVeYm.com
+ http://www.YrXPsB.com
+ http://www.cjGckk.com
+ http://www.dDdznc.com
+ http://www.XEKDxc.com
+ http://www.vsHSVB.com
+ http://www.VrYuzT.com
+ http://www.SYHIQk.com
+(10 rows)
+
+Time: First fetch (10 rows): 12.306 ms. All rows formatted: 12.401 ms

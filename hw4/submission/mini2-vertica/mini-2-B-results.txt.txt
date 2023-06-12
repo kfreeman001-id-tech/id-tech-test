@@ -1,0 +1,16 @@
+          url
+-----------------------
+ http://www.TxNWid.com
+ http://www.BBYQIL.com
+ http://www.thjqLp.com
+ http://www.lUlaTp.com
+ http://www.imGqaJ.com
+ http://www.wsPfrL.com
+ http://www.XcFcOq.com
+ http://www.IRwloO.com
+ http://www.nQTbdK.com
+ http://www.jVwpTF.com
+(10 rows)
+
+Time: First fetch (10 rows): 17.515 ms. All rows formatted: 17.782 ms
+docker=>
